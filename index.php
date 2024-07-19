@@ -1,52 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Kimeto</title>
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="assets/css/materialdesignicons.min.css">
-        <link rel="stylesheet" href="assets/css/animate.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
-
-    <body>
-
-        <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
-            <div class="container">
-                <a class='navbar-brand logo' href='index_1.html'>
-                        <h1 style="color: #fff; font-size: 1.8rem;">Kimeto</h1>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="mdi mdi-menu"></i>
-                    </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item active">
-                            <a href="#" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Achievements</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+<?php
+include('header.php');
+?>
 
         <section class="home-bg section h-100vh" id="home">
             <div class="bg-overlay"></div>
@@ -80,8 +34,8 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
 
-         <script src="assets/js/jquery.min.js"></script>
-         <script src="assets/js/typed.js"></script>         
+         <script src="/design/assets/js/jquery.min.js"></script>
+         <script src="/design/assets/js/typed.js"></script>         
         <script>
             $(".element").each(function() {
                 var $this = $(this);

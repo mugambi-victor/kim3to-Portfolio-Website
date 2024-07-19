@@ -142,7 +142,15 @@ button:focus {
 }
 
 
-
+.text-grey{
+  color:grey;
+}
+.bg-grey{
+  background-color: grey;
+}
+.bg-grey:focus{
+  background-color: grey;
+}
 .page_link {
   font-size: 14px;
 }
@@ -211,7 +219,7 @@ button:focus {
   height: 100%;
 }
 
-.btn {
+.btn1 {
   padding: 12px 26px;
 }
 
